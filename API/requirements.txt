@@ -1,0 +1,60 @@
+# FastAPI ve web framework bağımlılıkları
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# CORS middleware
+fastapi[all]==0.104.1
+
+# LangChain bağımlılıkları
+langchain==0.1.0
+langchain-community==0.0.10
+langchain-core==0.1.0
+langchain-ollama==0.0.1
+
+# Embedding ve vector store
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+
+# NLP ve Türkçe işleme
+nltk==3.8.1
+zemberek-python==0.1.2
+
+# Çeviri modelleri (MarianMT)
+transformers==4.36.0
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
+
+# MarianMT tokenizer
+sentencepiece==0.1.99
+sacremoses==0.0.53
+
+# Sistem ve performans
+asyncio
+concurrent.futures
+threading
+functools
+gc
+logging
+time
+os
+typing
+re
+
+# HTTP ve network
+requests==2.31.0
+httpx==0.25.0
+
+# Veri işleme
+numpy==1.24.3
+pandas==1.5.3
+
+# Opsiyonel: GPU desteği için (CUDA varsa)
+# torch==2.1.0+cu118 -f https://download.pytorch.org/whl/torch_stable.html
+
+# Development bağımlılıkları (opsiyonel)
+pytest==7.4.0
+pytest-asyncio==0.21.0
+black==23.0.0
+flake8==6.0.0
